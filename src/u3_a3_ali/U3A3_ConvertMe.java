@@ -40,40 +40,40 @@ public class U3A3_ConvertMe extends JFrame implements ActionListener {
 
         // Intitialize all components
         JLabel lblTitle = new JLabel("Linear Conversion");      // Title
-        lblTitle.setFont(new Font("Comic Sans MS", Font.BOLD, 30));
+        lblTitle.setFont(new Font("Arial", Font.BOLD, 30));
         lblTitle.setForeground(Color.BLACK);
 
         JLabel lblInchtoCm = new JLabel("1. Inches to Centimetres");  // Display conversion choice
-        lblInchtoCm.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));
+        lblInchtoCm.setFont(new Font("Arial", Font.PLAIN, 15));
         
         JLabel lblFeettoCm = new JLabel("2. Feet to Centimetres");  // Display conversion choice
-        lblFeettoCm.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));
+        lblFeettoCm.setFont(new Font("Arial", Font.PLAIN, 15));
         
         JLabel lblYardtoMetre = new JLabel("3. Yards to Metres");  // Display conversion choice
-        lblYardtoMetre.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));
+        lblYardtoMetre.setFont(new Font("Arial", Font.PLAIN, 15));
         
         JLabel lblMiletoKm = new JLabel("4. Miles to Kilmetres");  // Display conversion choice
-        lblMiletoKm.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));
+        lblMiletoKm.setFont(new Font("Arial", Font.PLAIN, 15));
         
         JLabel lblCmtoInch = new JLabel("5. Centimetres to Inches");  // Display conversion choice
-        lblCmtoInch.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));
+        lblCmtoInch.setFont(new Font("Arial", Font.PLAIN, 15));
         
         JLabel lblCmtoFeet = new JLabel("6. Centimetres to Feet");  // Display conversion choice
-        lblCmtoFeet.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));
+        lblCmtoFeet.setFont(new Font("Arial", Font.PLAIN, 15));
         
         JLabel lblMetretoYard = new JLabel("7. Metres to Yards");  // Display conversion choice
-        lblMetretoYard.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));
+        lblMetretoYard.setFont(new Font("Arial", Font.PLAIN, 15));
         
         JLabel lblKmtoMile = new JLabel("8. Kilmetres to Miles");  // Display conversion choice
-        lblKmtoMile.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));
+        lblKmtoMile.setFont(new Font("Arial", Font.PLAIN, 15));
         
         JLabel lblConversionChoice = new JLabel("Enter a conversion choice (1-8):");  // Prompt
-        lblConversionChoice.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));
+        lblConversionChoice.setFont(new Font("Arial", Font.PLAIN, 15));
 
         txtConversionChoice.setText("");              // Input conversion choice
         
         JLabel lblValue = new JLabel("Enter a value to be converted:");  // Prompt
-        lblValue.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));
+        lblValue.setFont(new Font("Arial", Font.PLAIN, 15));
 
         txtValue.setText("");              // Input value
 
@@ -82,7 +82,7 @@ public class U3A3_ConvertMe extends JFrame implements ActionListener {
         btnConvert.setActionCommand("Convert");
         btnConvert.addActionListener(this);
 
-        lblOutput.setFont(new Font("Comic Sans MS", Font.PLAIN, 15));     // Conversion output
+        lblOutput.setFont(new Font("Arial", Font.PLAIN, 15));     // Conversion output
         lblOutput.setForeground(Color.RED);  // Set font colour to red
         lblOutput.setText("");
 
